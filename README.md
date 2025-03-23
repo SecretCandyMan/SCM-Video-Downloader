@@ -26,7 +26,7 @@ A Tampermonkey userscript that adds download buttons next to video links on web 
 
 1. Install the Tampermonkey browser extension
 2. Create a new userscript in Tampermonkey
-3. Copy and paste the contents of `download-videos.user.js` into the editor
+3. Copy and paste the contents of `scm-video-downloader.user.js` into the editor
 4. Save the script
 
 ## Configuration
