@@ -9,7 +9,6 @@ A Tampermonkey userscript that adds download buttons next to video links on web 
 - Bulk download option via a floating button
 - Download progress notifications
 - Configurable allowed domains
-- Excludes links with class "fileThumb"
 - Supports dynamic content loading
 
 ## Supported Video Formats
