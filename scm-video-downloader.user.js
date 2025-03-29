@@ -3,6 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  Download video files from specified websites with bulk download option
+// @updateURL    https://github.com/SecretCandyMan/SCM-Video-Downloader/raw/refs/heads/main/scm-video-downloader.user.js
+// @downloadURL  https://github.com/SecretCandyMan/SCM-Video-Downloader/raw/refs/heads/main/scm-video-downloader.user.js
 // @author       SecretCandyMan
 // @match        *://*/*
 // @grant        GM_download
