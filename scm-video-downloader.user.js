@@ -3,8 +3,6 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  Download video files from specified websites with bulk download option
-// @updateURL    https://github.com/SecretCandyMan/SCM-Video-Downloader/raw/refs/heads/main/scm-video-downloader.user.js
-// @downloadURL  https://github.com/SecretCandyMan/SCM-Video-Downloader/raw/refs/heads/main/scm-video-downloader.user.js
 // @author       SecretCandyMan
 // @match        *://*/*
 // @grant        GM_download
@@ -16,7 +14,7 @@
 
     // Configure allowed domains here
     // Use ['*'] to allow all domains, or specify domains like ['example.com', 'site.com']
-    const allowedDomains = ['*'];
+    const allowedDomains = ['4chan.org','tumblr.com/','*.tumblr.com'];
 
     // Styles for the UI elements
     const style = document.createElement('style');
@@ -47,7 +45,7 @@
             font-size: 14px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
             z-index: 10000;
-            display: none;
+            display: none;    left: 75%;
         }
         .bulk-dl-btn:hover {
             background: #1976D2;
